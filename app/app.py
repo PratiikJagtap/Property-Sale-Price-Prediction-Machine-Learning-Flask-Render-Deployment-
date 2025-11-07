@@ -6,9 +6,10 @@ import os
 # Create Flask app
 app = Flask(__name__)
 
-# Load the trained model
+# Build correct absolute path for model
 model_path = os.path.join(os.path.dirname(__file__), '..', 'models', 'property-price-model.pkl')
 model = joblib.load(model_path)
+
 
 @app.route('/')
 def home():

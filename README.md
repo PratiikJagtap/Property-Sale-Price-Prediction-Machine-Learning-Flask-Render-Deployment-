@@ -3,6 +3,7 @@
 This project predicts the **sale price of residential properties** using a trained **Machine Learning regression model**.  
 It provides an **interactive web interface** built with **Flask** and is **deployed online via Render**, allowing users to input property details and instantly get price predictions.
 
+### Live Demo: https://property-sale-price-prediction-machine.onrender.com/
 ---
 
 ## 🚀 Features
